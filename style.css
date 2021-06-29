@@ -101,3 +101,17 @@ img {
   }
 }
 /* FINE BLOCCO STEPS */
+
+/* BLOCCO PERCHE */
+@media (max-width: 479px) {
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 50%;
+    margin: 0 auto; 
+  } 
+  #why .row {
+    background-color: rgb(240, 245, 204);
+  }
+}
+/* FINE BLOCCO PERCHE */
