@@ -77,13 +77,17 @@ img {
 /* BLOCCO LEZIONI */
 @media (max-width: 479px) {
   #lezioni .row {
+    min-width: 334px;
+    height: 100%;
     background-color: rgb(240, 245, 204);
+    margin: 0;
   }
   #lezioni .row>.left,
   #lezioni .row>.right {
     float:none;
-    margin: 0 auto;
+    width: 100%;
   }
+  
 }
 /* FINE BLOCCO LEZIONI */
 
@@ -93,11 +97,19 @@ img {
   #steps .row>.central,
   #steps .row>.right {
     float: none;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
+    
+  }
+  .steps {
+    width: 100%;
   }
   .row {
+    min-width: 334px;
+    width: 100%;
+    height: 100%;
     background-color: white;
+    margin: 0 auto;
   }
 }
 /* FINE BLOCCO STEPS */
@@ -107,11 +119,17 @@ img {
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-    width: 50%;
+    width: 100%;
     margin: 0 auto; 
   } 
   #why .row {
+    min-width: 334px;
+    width: 100%;
     background-color: rgb(240, 245, 204);
+    margin: 0;
+  }
+  #why {
+    width: 100%;
   }
 }
 /* FINE BLOCCO PERCHE */
