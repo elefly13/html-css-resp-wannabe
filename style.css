@@ -86,3 +86,18 @@ img {
   }
 }
 /* FINE BLOCCO LEZIONI */
+
+/* BLOCCO STEPS */
+@media (max-width: 479px) {
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .row {
+    background-color: white;
+  }
+}
+/* FINE BLOCCO STEPS */
